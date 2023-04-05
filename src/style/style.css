@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap");
+body {
+  background: #A020F0;
+}
+
+.menu {
+  height: 60px;
+}
+
+.home {
+  font-family: "Open sans";
+  position: absolute;
+  left: 60%;
+  cursor: pointer;
+}
+
+.about {
+  font-family: "Open sans";
+  position: absolute;
+  left: 70%;
+  cursor: pointer;
+}
+
+.services {
+  font-family: "Open sans";
+  position: absolute;
+  left: 80%;
+  cursor: pointer;
+}
+
+.contact {
+  font-family: "Open sans";
+  position: absolute;
+  left: 90%;
+  cursor: pointer;
+  color: #FF8C00;
+  text-shadow: 0px 0px 7px #FF8C00;
+}/*# sourceMappingURL=style.css.map */
