@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.sectionSkills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #261C21 0%, #6E1E62 50%, #261C21 100%);
+    height: 600px;
+    margin-top: 200px;
+}
+
+.sectionSkills div {
+    margin-top: 20px;
+}
+
+.titleSkills {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.containerSkill {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.containerSkill div {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #261C21;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.imgIcon {
+    width: 100px;
+    height: 100px;
+    transition: .3s;
+}
+
+.imgIcon:hover {
+    transform: scale(1.3);
+}
