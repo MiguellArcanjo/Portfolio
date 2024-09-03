@@ -2,7 +2,7 @@ import styles from "@/components/Contato/style.module.css"
 
 export const Contato = () => {
     return (
-        <section className={styles.contato}>
+        <section className={styles.contato} id="contato">
             <div>
                 <h2 className={styles.titleContato}>Entre em contato</h2>
                 <form action="" className={styles.formContato}>

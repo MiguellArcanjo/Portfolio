@@ -2,7 +2,7 @@ import styles from "@/components/Trabalho/styles.module.css"
 
 export const Trabalho = () => {
     return (
-        <section className={styles.trabalhosRecente}>
+        <section className={styles.trabalhosRecente} id="trabalho">
             <div>
                 <h2>Trabalhos recentes</h2>
                 <div className={styles.divTrabalho}>

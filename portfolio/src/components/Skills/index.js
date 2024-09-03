@@ -2,7 +2,7 @@ import styles from "@/components/Skills/styles.module.css"
 
 export const Skills = () => {
     return (
-        <section className={styles.sectionSkills}>
+        <section className={styles.sectionSkills} id="skills">
             <div>
                 <h2 className={styles.titleSkills}>Hard Skills</h2>
                 <div className={styles.containerSkill}>
