@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main {
+    background-color: #261C21;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+  
+.imgProjeto {
+    height: 220px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.detalheProjeto {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.detalheProjeto h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+}
+
+.divParagrafo p {
+    width: 500px;
+    color: #C2C2C2;
+    font-family: "IBM Plex Mono", sans-serif;
+}
+
+.tituloEimagem {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tituloEimagem div {
+    display: flex;
+    gap: 30px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 180px;
+    height: 45px;
+    background-color: #3F8E00;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "IBM Plex Mono", sans-serif;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 0 3px 2px #62BA1B;
+    text-align: center;
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: #326607;
+    box-shadow: 0 0 3px 2px #326607;
+}
+
+
+.sectionSkills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #261C21 0%, #6E1E62 50%, #261C21 100%);
+    height: 600px;
+    margin-top: 60px;
+}
+
+.sectionSkills div {
+    margin-top: 20px;
+}
+
+.titleSkills {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
+
+.containerSkill {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+.containerSkill div {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #261C21;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.imgIcon {
+    width: 100px;
+    height: 100px;
+    transition: .3s;
+}
+
+.imgIcon:hover {
+    transform: scale(1.3);
+}

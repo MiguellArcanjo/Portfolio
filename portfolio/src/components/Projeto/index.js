@@ -35,7 +35,7 @@ export const Projeto = () => {
 
                         <SwiperSlide className={styles.carrocel}>
                             <img src='/imagemValorant.png' alt="" className={styles.imagemEsp}/>
-                            <h3>Agentes do Valorant</h3>
+                            <h3>Agentes Valorant</h3>
                             <p>Este projeto foi desenvolvido como parte dos meus estudos, seguindo o tutorial do Leo Vargar. Nele, aprendi a consumir a API do Valorant e tive dicas essenciais para o desenvolvimento web.</p>
                             <br />
                             <Link href={'/projetoValorant'} className={styles.linkBtn}>Mais Detalhes</Link>
