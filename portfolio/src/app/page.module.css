@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main {
+  background-color: #261C21;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  background: linear-gradient(to top, rgb(36, 25, 29) 0%, #6E1E62 100%);
+  width: 1366px;
+  height: 100px;
+  margin: 0 auto;
+  border-end-start-radius: 15px;
+  border-end-end-radius: 15px;  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.linksAncora a {
+  margin-left: 50px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.linksPerfil a {
+  margin-right: 30px;
+}
+
+.containerSection1 {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.containerSection1 div h2 {
+  color: #fff;
+  font-size: 32px;
+  font-family: "Raleway", sans-serif;
+}
+
+.textBio {
+  font-family: "IBM Plex Mono", sans-serif;
+  width: 440px;
+  margin-top: 20px;
+  color: #C2C2C2;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.imgContainer {
+  display: inline-block;
+  padding: 4px;
+  background: radial-gradient(circle, #23071E 0%, #891B77 100%);
+  border-radius: 220px; 
+}
+
+.img {
+  display: block;
+  border-radius: 220px; 
+  background-clip: padding-box;
+  background-color: white;
+}
+
+.btnContato {
+  margin-top: 30px;
+  width: 297px;
+  height: 58px;
+  /* padding: 20px; */
+  background-color: #3F8E00;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  font-family: "IBM Plex Mono", sans-serif;
+  border-radius: 7px;
+  border: none;
+  cursor: pointer;
+  transition: .3s;
+  box-shadow: 0 0 7px 2px #62BA1B;
+}
+
+.btnContato:hover {
+  background-color: #2e6303;
+}
+
+.sectionSkills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, #261C21 0%, #6E1E62 50%, #261C21 100%);
+  height: 600px;
+  margin-top: 200px;
+}
+
+.sectionSkills div {
+  margin-top: 20px;
+}
+
+.titleSkills {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+
+.containerSkill {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.containerSkill div {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #261C21;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.imgIcon {
+  width: 100px;
+  height: 100px;
+}
+
+.sectionProjects {
+  width: 95vw;
+  height: 100vh;
+}
