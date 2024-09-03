@@ -1,0 +1,47 @@
+
+.carrocel {
+    margin-top: 50px;
+    display: flex;
+    text-align: center; 
+}
+
+.carrocel img {
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.carrocel h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.carrocel p {
+    margin-bottom: 20px;
+    margin: 25px auto;
+    color: #9C9C9C;
+    width: 400px;
+    /* border: 1px solid; */
+}
+
+.carrocel button {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 58px;
+    background-color: #3F8E00;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "IBM Plex Mono", sans-serif;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 0 3px 2px #62BA1B;
+}
+
+.carrocel button:hover {
+    background-color: #326607;
+    box-shadow: 0 0 3px 2px #326607;
+}

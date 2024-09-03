@@ -1,9 +1,12 @@
+'use client'
+
+import React from 'react';
 import Image from "next/image";
 import styles from "./page.module.css";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/navigation'; // Import adicional, caso use navigation
-import 'swiper/css/pagination';
+
+import { Projeto } from '@/components/Projeto';
+
+
 
 export default function Home() {
   return (
@@ -60,13 +63,47 @@ export default function Home() {
         </section>
 
         <section className={styles.sectionProjects}>
+          <Projeto />
+
+        </section>
+
+        <section className={styles.trabalhosRecente}>
           <div>
-            <h2>Projetos</h2>
-            <div>
-              <Swiper spaceBetween={16} slidesPerView={4}>
-                <SwiperSlide><h4>Projeto Utilizando o Esp-32</h4></SwiperSlide>
-              </Swiper>
+            <h2>Trabalhos recentes</h2>
+            <div className={styles.divTrabalho}>
+              <div className={styles.containerFabrica}>
+                <img src="/fabricaDeSoftware-removebg-preview 1.svg" alt=""className={styles.imgFabrica} />
+                <p>Fabrica de Software</p>
+              </div>
+              <img src="/Group 7.svg" alt="" />
+              <p className={styles.agosto}>Agosto de 2023</p>
+              <p className={styles.junho}>Junho de 2024</p>
+              <p className={styles.text}>Nesse período, estagiei na fábrica de software como desenvolvedor Back-End, utilizando Java e Spring para a criação de APIs e funcionalidades no backend. Durante o estágio, minha equipe e eu desenvolvemos um sistema de gestão de estoque para a farmácia da Unipe.</p>
             </div>
+          </div>
+        </section>
+
+        <section className={styles.contato}>
+          <div>
+            <h2 className={styles.titleContato}>Entre em contato</h2>
+            <form action="" className={styles.formContato}>
+              <div className={styles.divInputs}>
+                <div className={styles.divEsq}>
+                  <label htmlFor="">Email</label>
+                  <input type="text" name="" id="" placeholder='Por favor coloque seu email'/>
+
+                  <label htmlFor="">Titulo</label>
+                  <input type="text" placeholder='Coloque o titulo'/>
+                </div>
+
+                <div className={styles.divDir}>
+                  <label htmlFor="">Menssagem</label>
+                  <textarea name="" id="" rows={7} cols={40} placeholder='Digite a mensagem'/>
+                </div>
+              </div>
+              
+              <button type="submit" className={styles.btnSubmit}>Enviar {'>'}</button>
+            </form>
           </div>
         </section>
 

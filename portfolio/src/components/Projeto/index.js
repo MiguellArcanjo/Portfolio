@@ -1,0 +1,42 @@
+import styles from "@/components/Projeto/style.module.css"
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
+
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
+export const Projeto = () => {
+    return (
+        <div>
+            <h2>Projetos</h2>
+            <div>
+                <Swiper modules={[Navigation, Pagination, Scrollbar, A11y]} slidesPerView={2} navigation  loop={true}>
+                
+                    <SwiperSlide className={styles.carrocel}>
+                        <img src='/imagemEsp.png' alt="" className={styles.imagemEsp}/>
+                        <h3>Projeto Utilizando o Esp-32</h3>
+                        <p>No meu dia a dia, enfrentei o problema de verificar se a porta estava realmente fechada. Para resolver essa questão, desenvolvi um projeto simples que combina Desenvolvimento Web e Arduino.</p>
+                        <button>Mais Detalhes</button>
+                    </SwiperSlide>
+
+                    <SwiperSlide className={styles.carrocel}>
+                        <img src='/imagemNetflix.png' alt="" className={styles.imagemEsp}/>
+                        <h3>Landing Page Netflix</h3>
+                        <p>O objetivo deste projeto é recriar a tela de login da Netflix utilizando apenas HTML e CSS, sem o uso de frameworks. a finalidade do projeto é praticar e aperfeiçoar habilidades fundamentais no Front-end.</p>
+                        <button>Mais Detalhes</button>
+                    </SwiperSlide>
+
+                    <SwiperSlide className={styles.carrocel}>
+                        <img src='/imagemValorant.png' alt="" className={styles.imagemEsp}/>
+                        <h3>Agentes do Valorant</h3>
+                        <p>Este projeto foi desenvolvido como parte dos meus estudos, seguindo o tutorial do Leo Vargar. Nele, aprendi a consumir a API do Valorant e tive dicas essenciais para o desenvolvimento web.</p>
+                        <button>Mais Detalhes</button>
+                    </SwiperSlide>
+                </Swiper>
+            </div>
+        </div>
+    )
+}
