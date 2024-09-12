@@ -1,0 +1,31 @@
+.nav {
+    background: #6E1E62;
+    width: 100%;
+    max-width: 800px; 
+    height: 100px;
+    margin: 0 auto;
+    border-end-start-radius: 15px;
+    border-end-end-radius: 15px;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.linksAncora a {
+    margin-left: 50px;
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.linksAncora a:hover {
+    color: #838282; 
+}
+
+.linksPerfil a {
+    margin-right: 10px;
+}

@@ -1,6 +1,7 @@
 .nav {
     background: #6E1E62;
-    width: 1180px;
+    max-width: 1180px; 
+    width: 100%; 
     height: 100px;
     margin: 0 auto;
     border-end-start-radius: 15px;
@@ -9,6 +10,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    box-sizing: border-box; 
 }
 
 .linksAncora a {

@@ -2,8 +2,8 @@
 
 import styles from "@/app/projetoValorant/page.module.css"
 import Link from "next/link"
-import { Nav } from "@/components/Nav"
-import { Contato } from "@/components/Contato"
+import { Nav } from "@/components/Desktop/Nav"
+import { Contato } from "@/components/Desktop/Contato"
 
 export default function ProjetoValorant() {
     return (

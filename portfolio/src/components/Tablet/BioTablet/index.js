@@ -1,6 +1,6 @@
-import styles from "@/components/Bio/styles.module.css"
+import styles from "@/components/Tablet/BioTablet/styles.module.css"
 
-export const Bio = () => {
+export const BioTablet = () => {
     return (
         <section className={styles.main}>
             <div className={styles.containerSection1}>
@@ -14,7 +14,7 @@ export const Bio = () => {
 
                 <div>
                     <div className={styles.imgContainer}>
-                    <img src="/minha foto.jpeg" alt="Minha foto" width={400} height={400} className={styles.img}/>
+                    <img src="/minha foto.jpeg" alt="Minha foto" width={270} height={270} className={styles.img}/>
                     </div>
                 </div>
             </div>

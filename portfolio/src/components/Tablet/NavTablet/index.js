@@ -1,8 +1,8 @@
-import styles from "@/components/Nav/style.module.css"
+import styles from "@/components/Tablet/NavTablet/style.module.css"
 import Image from "next/image";
 import Link from "next/link";
 
-export const Nav = () => {
+export const NavTablet = () => {
     return (
         <nav className={styles.nav}>
             <div className={styles.linksAncora}>

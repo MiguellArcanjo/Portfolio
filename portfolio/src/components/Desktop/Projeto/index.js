@@ -1,4 +1,4 @@
-import styles from "@/components/Projeto/style.module.css"
+import styles from "@/components/Desktop/Projeto/style.module.css"
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';

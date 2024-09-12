@@ -1,4 +1,4 @@
-import styles from "@/components/Trabalho/styles.module.css"
+import styles from "@/components/Desktop/Trabalho/styles.module.css"
 
 export const Trabalho = () => {
     return (

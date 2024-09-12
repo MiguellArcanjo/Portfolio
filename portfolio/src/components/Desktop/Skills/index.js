@@ -1,4 +1,4 @@
-import styles from "@/components/Skills/styles.module.css"
+import styles from "@/components/Desktop/Skills/styles.module.css"
 
 export const Skills = () => {
     return (

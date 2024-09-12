@@ -1,4 +1,4 @@
-import styles from "@/components/Contato/style.module.css"
+import styles from "@/components/Desktop/Contato/style.module.css"
 
 export const Contato = () => {
     return (
