@@ -12,14 +12,14 @@ export default function ProjetoEsp32() {
             <section className={styles.detalheProjeto}>
                 <div className={styles.tituloEimagem}>
                     <h2>Agentes Valorant</h2>
-                    <img src="/imagemValorant.png" alt="" className={styles.imgProjeto}/>
+                    <img src="/imagemEsp.png" alt="" className={styles.imgProjeto}/>
                     <div>
-                        <Link href={'https://github.com/MiguellArcanjo/AgentesValorant'} className={styles.link} target="blanck_">Ver repositorio</Link>
+                        <Link href={'https://github.com/MiguellArcanjo/ComunicacaoEsp32'} className={styles.link} target="blanck_">Ver repositorio</Link>
                         <Link href={'/'} className={styles.link}>Voltar</Link>
                     </div>
                 </div>
                 <div className={styles.divParagrafo}>
-                    <p>Este projeto foi desenvolvido como parte dos meus estudos, seguindo o tutorial do Leo Vargar. Nele, aprendi a consumir a API do Valorant e tive dicas essenciais para o desenvolvimento web.</p>
+                    <p>No meu dia a dia, enfrentei o problema de verificar se a porta estava realmente fechada. Para resolver essa questão, desenvolvi um projeto simples que combina Desenvolvimento Web e Arduino. O objetivo do projeto é criar um sistema que permita monitorar o status da porta (aberta ou fechada) de maneira prática e eficiente, utilizando tecnologias modernas para obter informações em tempo real.</p>
                 </div>
             </section>
 
@@ -31,6 +31,7 @@ export default function ProjetoEsp32() {
                         <div><img src="/htmlIcon.svg" alt="" className={styles.imgIcon}/></div>
                         <div><img src="/cssIcon.svg" alt="" className={styles.imgIcon}/></div>
                         <div><img src="/IconReact 1.svg" alt="" className={styles.imgIcon}/></div>
+                        <div><img src="/iconC+ 1.svg" alt="" className={styles.imgIcon}/></div>
                     </div>
                 </div>
             </section>

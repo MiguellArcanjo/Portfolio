@@ -22,7 +22,7 @@ export const Projeto = () => {
                             <h3>Projeto Utilizando o Esp-32</h3>
                             <p>No meu dia a dia, enfrentei o problema de verificar se a porta estava realmente fechada. Para resolver essa questão, desenvolvi um projeto simples que combina Desenvolvimento Web e Arduino.</p>
                             <br />
-                            <Link href={'#'} className={styles.linkBtn}>Mais Detalhes</Link>
+                            <Link href={'/projetoEsp32'} className={styles.linkBtn}>Mais Detalhes</Link>
                         </SwiperSlide>
 
                         <SwiperSlide className={styles.carrocel}>
@@ -30,7 +30,7 @@ export const Projeto = () => {
                             <h3>Landing Page Netflix</h3>
                             <p>O objetivo deste projeto é recriar a tela de login da Netflix utilizando apenas HTML e CSS, sem o uso de frameworks. a finalidade do projeto é praticar e aperfeiçoar habilidades fundamentais no Front-end.</p>
                             <br />
-                            <Link href={'#'} className={styles.linkBtn}>Mais Detalhes</Link>
+                            <Link href={'/projetoNetflix'} className={styles.linkBtn}>Mais Detalhes</Link>
                         </SwiperSlide>
 
                         <SwiperSlide className={styles.carrocel}>
@@ -39,7 +39,14 @@ export const Projeto = () => {
                             <p>Este projeto foi desenvolvido como parte dos meus estudos, seguindo o tutorial do Leo Vargar. Nele, aprendi a consumir a API do Valorant e tive dicas essenciais para o desenvolvimento web.</p>
                             <br />
                             <Link href={'/projetoValorant'} className={styles.linkBtn}>Mais Detalhes</Link>
-                            
+                        </SwiperSlide>
+
+                        <SwiperSlide className={styles.carrocel}>
+                            <img src='/imagemSenhaCerta.png' alt="" className={styles.imagemSenha}/>
+                            <h3>Fechadura com Senha</h3>
+                            <p>Dando continuidade aos meus estudos em desenvolvimento web e IoT, tentei ir além ao construir um protótipo de fechadura eletrônica que possui uma interface web para interação...</p>
+                            <br />
+                            <Link href={'/projetoSenha'} className={styles.linkBtn}>Mais Detalhes</Link>
                         </SwiperSlide>
                     </Swiper>
                 </div>
