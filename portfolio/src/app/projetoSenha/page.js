@@ -11,7 +11,7 @@ export default function ProjetoNetflix() {
             <Nav />
             <section className={styles.detalheProjeto}>
                 <div className={styles.tituloEimagem}>
-                    <h2>Agentes Valorant</h2>
+                    <h2>Fechadura com Senha</h2>
                     <img src="/imagemSenhaCerta.png" alt="" className={styles.imgProjeto}/>
                     <div>
                         <Link href={'https://github.com/MiguellArcanjo/fechaduraComSenha'} className={styles.link} target="blanck_">Ver repositorio</Link>
