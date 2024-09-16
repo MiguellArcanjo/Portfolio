@@ -43,9 +43,13 @@
 
 .btnContato {
     margin-top: 30px;
-    width: 297px;
-    height: 58px;
-    /* padding: 20px; */
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 250px;
+    height: 45px;
     background-color: #3F8E00;
     color: #fff;
     font-weight: 700;
@@ -55,7 +59,9 @@
     border: none;
     cursor: pointer;
     transition: .3s;
-    box-shadow: 0 0 7px 2px #62BA1B;
+    box-shadow: 0 0 3px 2px #62BA1B;
+    text-align: center;
+    text-decoration: none;
 }
 
 .btnContato:hover {

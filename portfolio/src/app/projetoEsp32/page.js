@@ -45,7 +45,7 @@ const ProjetoEsp32Desktop = () => {
                         <div><img src="/htmlIcon.svg" alt="" className={styles.imgIcon}/></div>
                         <div><img src="/cssIcon.svg" alt="" className={styles.imgIcon}/></div>
                         <div><img src="/IconReact 1.svg" alt="" className={styles.imgIcon}/></div>
-                        <div><img src="/iconC+ 1.svg" alt="" className={styles.imgIcon}/></div>
+                        <div><img src="/c.svg" alt="" className={styles.imgIcon}/></div>
                     </div>
                 </div>
             </section>
@@ -86,7 +86,7 @@ const ProjetoEsp32Tablet = () => {
                         <div><img src="/htmlIcon.svg" alt="" className={styles.imgIcon}/></div>
                         <div><img src="/cssIcon.svg" alt="" className={styles.imgIcon}/></div>
                         <div><img src="/IconReact 1.svg" alt="" className={styles.imgIcon}/></div>
-                        <div><img src="/iconC+ 1.svg" alt="" className={styles.imgIcon}/></div>
+                        <div><img src="/c.svg" alt="" className={styles.imgIcon}/></div>
                     </div>
                 </div>
             </section>
@@ -127,7 +127,7 @@ const ProjetoEsp32Mobile = () => {
                         <div><img src="/htmlIcon.svg" alt="" className={styles.imgIcon}/></div>
                         <div><img src="/cssIcon.svg" alt="" className={styles.imgIcon}/></div>
                         <div><img src="/IconReact 1.svg" alt="" className={styles.imgIcon}/></div>
-                        <div><img src="/iconC+ 1.svg" alt="" className={styles.imgIcon}/></div>
+                        <div><img src="/c.svg" alt="" className={styles.imgIcon}/></div>
                     </div>
                 </div>
             </section>

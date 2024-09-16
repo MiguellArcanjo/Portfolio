@@ -44,7 +44,7 @@ const ProjetoSenhaDesktop = () => {
                         <div><img src="/htmlIcon.svg" alt="" className={styles.imgIcon}/></div>
                         <div><img src="/cssIcon.svg" alt="" className={styles.imgIcon}/></div>
                         <div><img src="/IconReact 1.svg" alt="" className={styles.imgIcon}/></div>
-                        <div><img src="/iconC+ 1.svg" alt="" className={styles.imgIcon}/></div>
+                        <div><img src="/c.svg" alt="" className={styles.imgIcon}/></div>
                     </div>
                 </div>
             </section>
@@ -85,7 +85,7 @@ const ProjetoSenhaTablet = () => {
                         <div><img src="/htmlIcon.svg" alt="" className={styles.imgIcon}/></div>
                         <div><img src="/cssIcon.svg" alt="" className={styles.imgIcon}/></div>
                         <div><img src="/IconReact 1.svg" alt="" className={styles.imgIcon}/></div>
-                        <div><img src="/iconC+ 1.svg" alt="" className={styles.imgIcon}/></div>
+                        <div><img src="/c.svg" alt="" className={styles.imgIcon}/></div>
                     </div>
                 </div>
             </section>
@@ -126,7 +126,7 @@ const ProjetoSenhaMobile = () => {
                         <div><img src="/htmlIcon.svg" alt="" className={styles.imgIcon}/></div>
                         <div><img src="/cssIcon.svg" alt="" className={styles.imgIcon}/></div>
                         <div><img src="/IconReact 1.svg" alt="" className={styles.imgIcon}/></div>
-                        <div><img src="/iconC+ 1.svg" alt="" className={styles.imgIcon}/></div>
+                        <div><img src="/c.svg" alt="" className={styles.imgIcon}/></div>
                     </div>
                 </div>
             </section>

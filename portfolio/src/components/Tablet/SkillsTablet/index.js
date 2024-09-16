@@ -16,7 +16,7 @@ export const SkillsTablet = () => {
                 <div><img src="/iconGit 1.svg" alt="" className={styles.imgIcon}/></div>
                 <div><img src="/iconPostgres 1.svg" alt="" className={styles.imgIcon}/></div>
                 <div><img src="/iconJava 1.svg" alt="" className={styles.imgIcon}/></div>
-                <div><img src="/iconC+ 1.svg" alt="" className={styles.imgIcon}/></div>
+                <div><img src="/c.svg" alt="" className={styles.imgIcon}/></div>
                 </div>
             </div>
         </section>
