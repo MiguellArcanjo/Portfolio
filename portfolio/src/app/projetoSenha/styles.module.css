@@ -38,6 +38,7 @@
     max-width: 500px;
     color: #C2C2C2;
     font-family: "IBM Plex Mono", sans-serif;
+    font-size: 20px;
 }
 
 .tituloEimagem {
@@ -226,6 +227,9 @@
     .divParagrafo p {
         text-align: center;
         padding: 10px;
+        font-size: 12px;
     }
+
+
 }
 

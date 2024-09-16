@@ -17,7 +17,7 @@ export const ContatoMobile = () => {
 
                         <div className={styles.divDir}>
                         <label htmlFor="">Menssagem</label>
-                        <textarea name="message" id="" rows={7} cols={40} placeholder='Digite a mensagem'/>
+                        <textarea name="message" id="" rows={7} cols={10} placeholder='Digite a mensagem'/>
                         </div>
                     </div>
                     

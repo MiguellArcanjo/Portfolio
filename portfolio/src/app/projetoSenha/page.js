@@ -1,6 +1,6 @@
 'use client'
 
-import styles from "@/app/projetoValorant/page.module.css"
+import styles from "@/app/projetoSenha/page.module.css"
 import Link from "next/link"
 import { use, useEffect, useState } from "react";
 import { useMediaQuery } from "react-responsive"
