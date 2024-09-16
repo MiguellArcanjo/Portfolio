@@ -19,12 +19,15 @@ import { SkillsMobile } from '@/components/Mobile/SkillsMobile';
 
 import { Projeto } from '@/components/Desktop/Projeto';
 import { ProjetoTablet } from '@/components/Tablet/ProjetoTablet';
+import { ProjetoMobile } from '@/components/Mobile/ProjetoMobile';
 
 import { Trabalho } from '@/components/Desktop/Trabalho'; 
 import { TrabalhoTablet } from '@/components/Tablet/TrabalhoTablet';
+import { TrabalhoMobile } from '@/components/Mobile/TrabalhoMobile';
 
 import { Contato } from '@/components/Desktop/Contato';
 import { ContatoTablet } from '@/components/Tablet/ContatoTablet';
+import { ContatoMobile } from '@/components/Mobile/ContatoMobile';
 
 
 const HomeDesktop = () => {
@@ -82,9 +85,9 @@ const HomeMobile = () => {
       <main>
         <BioMobile />
         <SkillsMobile />
-        {/* <ProjetoTablet />
-        <TrabalhoTablet />
-        <ContatoTablet /> */}
+        <ProjetoMobile />
+        <TrabalhoMobile />
+        <ContatoMobile />
       </main>
     </div>
   )

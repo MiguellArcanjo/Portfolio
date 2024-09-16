@@ -1,7 +1,6 @@
 .nav {
     background: #6E1E62;
     width: 100%;
-    max-width: 600px; 
     height: 90px;
     margin: 0 auto;
     border-end-start-radius: 15px;
@@ -14,8 +13,20 @@
     box-sizing: border-box;
 }
 
+.linksAncora a:hover {
+    color: #838282; 
+}
+
+.linksAncora {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 10px; 
+    width: 100%; 
+}
+
 .linksAncora a {
-    margin-left: 50px;
+    margin-left: 0; 
     font-size: 15px;
     text-decoration: none;
     color: #fff;
@@ -23,10 +34,31 @@
     transition: .3s;
 }
 
-.linksAncora a:hover {
-    color: #838282; 
+.linksPerfil {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+    width: 100%;
 }
 
-.linksPerfil a {
-    margin-right: 10px;
+.linksPerfil a img {
+    max-width: 30px; 
+    height: auto;
+}
+
+@media (max-width: 420px) {
+    .linksAncora a {
+        font-size: 14px; 
+    }
+
+    .linksPerfil a img {
+        max-width: 25px; 
+    }
+
+    .nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto; 
+    }
 }

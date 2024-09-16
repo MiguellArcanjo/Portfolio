@@ -1,0 +1,99 @@
+.contato {
+    margin-top: 50px;
+    height: 700px;
+}
+
+.titleContato {
+    color: #fff;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    text-align: center;
+
+}
+
+.formContato {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 50px;
+}
+    
+.divEsq {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.divEsq label {
+    color: #F8F8F8;
+    margin-top: 30px;
+    font-family: "IBM Plex Mono", sans-serif;
+}
+
+.divEsq input {
+    padding: 10px;
+    width: 260px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #D8D8D8;
+}
+
+.divEsq input::placeholder {
+    font-family: "IBM Plex Mono", sans-serif;
+}
+
+.divDir {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.divDir label {
+    color: #F8F8F8;
+    margin-top: 30px;
+    font-family: "IBM Plex Mono", sans-serif;
+}
+
+.divDir textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #D8D8D8;
+}
+
+.divDir textarea::placeholder {
+    font-family: "IBM Plex Mono", sans-serif;
+}
+
+.divInputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnSubmit {
+    margin-bottom: 10px;
+    width: 200px;
+    height: 45px;
+    background-color: #3F8E00;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "IBM Plex Mono", sans-serif;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 0 0 3px 2px #62BA1B;
+}
+
+.btnSubmit:hover {
+    background-color: #326607;
+    box-shadow: 0 0 3px 2px #326607;
+}

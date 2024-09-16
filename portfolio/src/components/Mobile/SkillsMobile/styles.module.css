@@ -22,25 +22,25 @@
     color: #fff;
     font-family: "Raleway", sans-serif;
     font-weight: bold;
-    font-size: 40px; 
+    font-size: 34px;
     text-align: center;
     margin-bottom: 20px; 
 }
 
 
 .containerSkill {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 80px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 80px 40px; 
 }
 
 .containerSkill div {
     background-repeat: no-repeat;
     background-size: contain;
     background-color: #261C21;
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -48,8 +48,8 @@
 }
 
 .imgIcon {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     transition: .3s;
 }
 
